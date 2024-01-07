@@ -1,0 +1,116 @@
+*  {
+padding: 0;
+margin: 0;
+
+}
+body{
+    background-color: rgb(243, 206, 212);
+}
+header{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    opacity: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+   margin-top: 5px;
+   border-radius: 15px;
+   display: none;
+    
+}
+h1{
+    color: rgb(169, 0, 0);
+    text-align: center;
+    text-shadow: 5px -10px 20px rgb(92, 4, 4), -5px 8px 18px rgb(92, 4, 4); 
+}
+
+.wrapper{
+    width: 100%;
+    
+    
+}
+
+
+.img-info{
+    width: 100%;
+}
+.img-info h2 {
+padding: 30px 30px 20px;
+font-size: 50px;
+color: rgb(110, 0, 0);
+font-family: monospace;
+line-height: 40px;
+text-align: center;
+opacity: 50%;
+text-shadow: 5px -10px 20px rgb(255, 97, 97), -5px 8px 18px rgb(255, 97, 97);
+}
+
+.img-info p {
+    padding: 0px 30px 20px;
+    font-size: 16px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    }
+    .img-2{
+        width: 100%;
+    }
+
+    @media only screen and (min-width: 768px) {
+     header{
+        display: block;
+        background-color: rgb(255, 255, 255);
+        width: 50%;
+        opacity: 50%;
+        text-align: center;
+        margin-left: 25%;
+        margin-right: 25%;
+       margin-top: 5px;
+       border-radius: 15px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+     }
+        .wrapper{
+            width: 600px;
+            margin: 0 auto;
+        }
+        
+        .img-info h2 {
+            padding: 20px 0px 0px;
+           
+            }
+            
+            .img-info p {
+                padding: 20px 0px 0px;
+              
+                }
+                .img-2{
+                    padding-top: 40px;
+                    
+                }
+    }
+    @media only screen and (min-width: 1000px) {
+       .wrapper{
+        width: 1000px;
+       }
+       .img-info{
+        width: 50%;
+        float: right;
+        height: auto;
+       }
+       .img-2{
+        width: 45%;
+        height: auto;
+        float: left;
+        padding-top: 50px;
+       }
+       .img-info h2{
+        padding: 20px 0px 0px 30px;
+       }
+       .img-info p {
+        padding: 20px 0px 0px 30px;
+        height: auto;
+      
+        }
+    }
+   
