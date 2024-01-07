@@ -4,7 +4,7 @@ margin: 0;
 
 }
 body{
-    background-color: rgb(243, 206, 212);
+    background-color: rgb(249, 138, 157);
 }
 header{
     background-color: rgb(255, 255, 255);
@@ -51,6 +51,10 @@ text-shadow: 5px -10px 20px rgb(255, 97, 97), -5px 8px 18px rgb(255, 97, 97);
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 24px;
+    }
+    .img-info p strong{
+        text-shadow: 5px -10px 20px rgb(255, 255, 255), -5px 8px 18px rgb(255, 255, 255);
+        color: rgb(228, 0, 140);
     }
     .img-2{
         width: 100%;
